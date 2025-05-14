@@ -118,7 +118,7 @@ import { Icon } from "@iconify/vue";
   height: 100vh;
   overflow: hidden;
   &__text-introduce {
-    padding-top: 0.5em;
+    padding-top: 0.3em;
     font-size: 3em;
     font-weight: 100;
   }
@@ -135,13 +135,13 @@ import { Icon } from "@iconify/vue";
     z-index: 200;
   }
   &__text {
-    @include general-title(5.5em);
+    @include general-title(5.0em);
   }
   &__text-msj {
     font-family: "VT323", monospace;
     font-size: 1.3em;
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 2%;
     width: 200px;
     text-align: left;

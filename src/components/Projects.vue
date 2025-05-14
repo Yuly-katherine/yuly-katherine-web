@@ -50,7 +50,7 @@ const cards = ref([
   {
     name: "favoritePokemon",
     description:
-      "Pokedex is a web app built with Vue that allows users to explore a list of Pokémon, view detailed information for each, and mark their favorites. It includes a filter to display only favorite Pokémon, enhancing user interaction. The project also integrates Vitest for unit testing, ensuring reliable and maintainable code.",
+      "Pokedex is a web application built with Vue that allows users to explore a list of Pokemons, view detailed information about each one and mark their favorites. It includes a filter to show only favorite Pokemon, improving user interaction. The project also integrates Vitest for unit testing, ensuring reliable and maintainable code.",
     img: "pokedex.png",
     alt:"favoritePokemon",
     github:"https://github.com/Yuly-katherine/pokedex-app",
@@ -86,7 +86,7 @@ const cards = ref([
   flex-direction: column;
   padding: 10px;
   &__title {
-    @include general-title(5.5em);
+    @include general-title(5.0em);
     margin: 0;
   }
   &__cards {

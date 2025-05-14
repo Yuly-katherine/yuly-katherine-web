@@ -146,7 +146,7 @@ const education = ref([
   flex-direction: column;
   align-items: center;
   &__title {
-    @include general-title(5.5em);
+    @include general-title(5.0em);
     margin: 0;
   }
   &__description {
@@ -161,7 +161,7 @@ const education = ref([
   flex-direction: column;
   align-items: center;
   &__title {
-    @include general-title(5.5em);
+    @include general-title(5.0em);
     margin: 0;
   }
   &__timeline {
@@ -186,7 +186,7 @@ const education = ref([
   justify-content: space-evenly;
   padding: 10px 0;
   &__title {
-    @include general-title(5.5em);
+    @include general-title(5.0em);
     margin: 0;
   }
   &__icons {

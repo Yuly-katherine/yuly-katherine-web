@@ -6,10 +6,7 @@
         <section class="contact-form">
           <div class="contact-text">
             <p class="contact-text__description">
-              If you have any inquiries or are interested in collaborating,
-              please feel free to fill out the contact form or reach out to me
-              through any of the following channels. I would be happy to connect
-              with you.
+              If you have any questions, please feel free to fill out the contact form or write me directly to my email. I will be happy to get in touch with you.
             </p>
 
             <div class="item-icon">
@@ -172,7 +169,7 @@ const rules = reactive({
   border-radius: 10px;
   padding: 10px;
   &__title {
-    @include general-title(5.5em);
+    @include general-title(5.0em);
     margin: 0;
   }
 }
