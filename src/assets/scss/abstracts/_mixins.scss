@@ -1,0 +1,8 @@
+@use "sass:color";
+
+@mixin general-title($size) {
+  color: #075f45;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: $size;
+  letter-spacing: -5px;
+}
